@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/EWTExtensions_Inquiry_1_0_0",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "This extension enable customers to send inquiry about products. Store admin will got notified via email.",
+    "authors": [
+    {
+        "name": "Yathavan",
+        "email": "yathavan7@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

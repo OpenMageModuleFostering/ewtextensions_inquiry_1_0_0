@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>EWTExtensions_Inquiry_1_0_0</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl.html">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension enable customers to send inquiry about products. Store admin will got notified via email.</summary>
+    <description>&lt;p&gt;This extension enables customers to send inquiry about products.&lt;/p&gt;&#xD;
+&lt;h2&gt;*Features*&lt;/h2&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Inquiry form on product page&lt;/li&gt;&#xD;
+&lt;li&gt;Auto identify logedin customer&lt;/li&gt;&#xD;
+&lt;li&gt;Notify admin via email&lt;/li&gt;&#xD;
+&lt;li&gt;Save and display inquiries in admin panel&lt;/li&gt;</description>
+    <notes>This is the initial release of EWT Product Inquiry extension</notes>
+    <authors><author><name>Yathavan</name><user>yathavan</user><email>yathavan7@gmail.com</email></author></authors>
+    <date>2014-08-06</date>
+    <time>15:39:07</time>
+    <contents><target name="magelocal"><dir name="ETWExtensions"><dir name="Inquiry"><dir name="Block"><dir name="Adminhtml"><dir name="Inquiry"><dir name="Edit"><file name="Form.php" hash="d96f220c7fc5ae069bc15fdfed7ee610"/><dir name="Tab"><file name="Form.php" hash="789fe0037afea2f54fb4d4929c984161"/></dir><file name="Tabs.php" hash="c12171a0ab4867c7601e6080f0aceb03"/></dir><file name="Edit.php" hash="fbe9f620a7b4fd26279c2658cbe25a5c"/><file name="Grid.php" hash="acdef9eba3c09f6b37fb8c6f2ee04300"/></dir><file name="Inquiry.php" hash="ac9017de0b4f5a8e7e36eb62c3337cda"/></dir><file name="Inquiry.php" hash="b7836625caa4ed29f37be5ad97279c25"/></dir><dir name="Helper"><file name="Data.php" hash="415423f915cd21d678b0fb2d8ad3de0d"/></dir><dir name="Model"><file name="Inquiry.php" hash="208e7a90c34febba91293770c057ab53"/><dir name="Mysql4"><dir name="Inquiry"><file name="Collection.php" hash="45dc86749e34f06a33fb7430be333ead"/></dir><file name="Inquiry.php" hash="38a40b48fd584c918bebd9d15b37ce0c"/></dir><file name="Status.php" hash="bc3a704dffcf2d4ced98297f51d16fd2"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="InquiryController.php" hash="27987ed3f82025301e59cf10c87ccc82"/></dir><file name="IndexController.php" hash="201f30f0e4dfb03a8dd6069029510a31"/></dir><dir name="etc"><file name="config.xml" hash="6d205a6fb1a39327f788c73e4a9522c5"/></dir><dir name="sql"><dir name="inquiry_setup"><file name="mysql4-install-1.0.0.php" hash="195cb85e7fe0b7dc312485221426838c"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="inquiry.xml" hash="fe0f26fff24722f164f9d5012d28a484"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="inquiry.xml" hash="0fc62b1d7ab7399fc5ff8dcbd9d7a97a"/></dir><dir name="template"><dir name="inquiry"><dir name="form"><file name="inquiry.phtml" hash="d98b09b2e586fb4698d10480f702efec"/></dir></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="layout"><file name="inquiry.xml" hash="0fc62b1d7ab7399fc5ff8dcbd9d7a97a"/></dir><dir name="template"><dir name="inquiry"><dir name="form"><file name="inquiry.phtml" hash="d98b09b2e586fb4698d10480f702efec"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ETWExtensions_Inquiry.xml" hash="5d48044792f8f238eb51526d671fab44"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="inquiry_notification_admin.html" hash="65b4036bc8eb24067214b1bf47b271d6"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>5.5.14</max></php></required></dependencies>
+</package>
