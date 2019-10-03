@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This extension enable customers to send inquiry about products. Store admin will got notified via email.
